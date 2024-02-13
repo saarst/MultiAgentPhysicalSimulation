@@ -6,9 +6,9 @@
   <img src="https://github.com/saarst/MultiAgentPhysicalSimulation/blob/main/assets/gate.jpg" alt="gate" width="50%">
 </p>
 
-
   <p align="center">
-    Yamit Pisman: <a href="https://www.linkedin.com/in/yamit-pisman/?originalSubdomain=il">LinkedIn</a>
+    Yamit Pisman: <a href="https://www.linkedin.com/in/yamit-pisman/?originalSubdomain=il">LinkedIn</a> , <a href="https://github.com/YamitPisman
+">GitHub</a>
   <br>
     Saar Stern: <a href="https://www.linkedin.com/in/saar-stern-a43413246/">LinkedIn</a> , <a href="https://github.com/saarst">GitHub</a>
   <br>
