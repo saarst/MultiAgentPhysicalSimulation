@@ -1,0 +1,16 @@
+
+	; start the delivery, this action starts the plan
+	(:durative-action start-delivery
+		:duration (and (>= ?duration 0.1) (<= ?duration 0.1))
+		:condition (and
+			(at start (first-time))
+            (at end (drone1-busy))
+            (at end (not (TL0start)))		
+			(at end (not (TL1start)))
+		)
+		:effect (and
+			(at start (not (first-time)))
+            (at start (TL0start))
+			(at start (TL1start))
+		)
+	)

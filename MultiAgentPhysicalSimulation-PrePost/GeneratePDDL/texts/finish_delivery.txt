@@ -1,0 +1,20 @@
+
+	; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	; ;	finish delivery
+	; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	(:durative-action drone1-finish-delivery
+		:duration (and (>= ?duration 0.1) (<= ?duration 200))
+		:condition (and
+			(at end (inside (helipad-region (drone1-x) (drone1-y))))
+			(at start  (drone1-delivery-ongoing))
+            (over all (>= (drone1-battery) 0))
+		)
+		:effect (and
+			(at start (not (drone1-delivery-ongoing)))
+			(at end (drone1-complete-delivery))
+            (increase (drone1-x) (* (vx-drone1) #t))
+			(increase (drone1-y) (* (vy-drone1) #t))
+			(decrease (drone1-battery) (* 1.0 (norm (energy-drone1)) #t))
+		)
+	)

@@ -1,0 +1,144 @@
+{
+  "step": [
+    {
+      "index": 0,
+      "speedX": 12.656779396319322,
+      "speedY": -3.8224512502986578,
+      "direction": [
+        0.93834293343371422,
+        -0.34570585658188091
+      ],
+      "accX": 4.75,
+      "decX": -4.75,
+      "accY": -4.75,
+      "decY": 4.75,
+      "start_time": 0.06541809724246675,
+      "accX_time": 2.7300032333096924,
+      "decX_time": 28.315258816799908,
+      "accY_time": 0.87014467625271052,
+      "decY_time": 33.122235994034774,
+      "end_time": 33.538789515559131,
+      "step_action": "DRONE2-PICKUP-PACKAGE3-FROM-WAREHOUSE2-INTO-SLOT1"
+    },
+    {
+      "index": 1,
+      "speedX": -16.098860703447961,
+      "speedY": -2.3208381344320634,
+      "direction": [
+        -0.987160004427699,
+        -0.15973454747895038
+      ],
+      "accX": -4.75,
+      "decX": 4.75,
+      "accY": -4.75,
+      "decY": 4.75,
+      "start_time": 37.723402342852296,
+      "accX_time": 38.553690612465132,
+      "decX_time": 75.555705719584836,
+      "accY_time": 37.823826787352104,
+      "decY_time": 80.726407284063868,
+      "end_time": 81.596735944061322,
+      "step_action": "DRONE2-DELIVER-HOUSE3-PACKAGE3-AT-SLOT1"
+    },
+    {
+      "index": 2,
+      "speedX": 14.93002695581743,
+      "speedY": 1.9548682124658259,
+      "direction": [
+        0.98837165107651326,
+        0.1520574869853083
+      ],
+      "accX": 4.75,
+      "decX": -4.75,
+      "accY": 4.75,
+      "decY": 4.75,
+      "start_time": 83.054988631877151,
+      "accX_time": 83.546355809351269,
+      "decX_time": 125.11694539179761,
+      "accY_time": 83.084808676489786,
+      "decY_time": 125.32923452503994,
+      "end_time": 127.65256337789722,
+      "step_action": "DRONE2-PICKUP-PACKAGE4-FROM-WAREHOUSE2-INTO-SLOT1"
+    },
+    {
+      "index": 3,
+      "speedX": 4.4704762382941379,
+      "speedY": 15.113314180746627,
+      "direction": [
+        0.23503027768226903,
+        0.97198804960379814
+      ],
+      "accX": 4.75,
+      "decX": -4.75,
+      "accY": 4.75,
+      "decY": -4.75,
+      "start_time": 198.6616433294937,
+      "accX_time": 198.99525063821997,
+      "decX_time": 228.49842568284018,
+      "accY_time": 199.10851362785343,
+      "decY_time": 229.42722755391543,
+      "end_time": 232.13255693736866,
+      "step_action": "DRONE2-DELIVER-HOUSE4-PACKAGE4-AT-SLOT1"
+    },
+    {
+      "index": 4,
+      "speedX": -14.802489871015689,
+      "speedY": 3.1023932768239324,
+      "direction": [
+        -0.98255494159270174,
+        0.18597254300504254
+      ],
+      "accX": -4.75,
+      "decX": 4.75,
+      "accY": 4.75,
+      "decY": -4.75,
+      "start_time": 232.14256216207795,
+      "accX_time": 232.56589745687785,
+      "decX_time": 274.16821818850156,
+      "accY_time": 232.31927661838958,
+      "decY_time": 272.78596265462767,
+      "end_time": 275.1596596156578,
+      "step_action": "DRONE2-PICKUP-PACKAGE1-FROM-WAREHOUSE1-INTO-SLOT1"
+    },
+    {
+      "index": 5,
+      "speedX": -13.928367282670099,
+      "speedY": -9.6576970987173265,
+      "direction": [
+        -0.77193023301045671,
+        -0.63570725602624822
+      ],
+      "accX": -4.75,
+      "decX": 4.75,
+      "accY": -4.75,
+      "decY": 4.75,
+      "start_time": 275.16966484214549,
+      "accX_time": 275.977080461229,
+      "decX_time": 301.87499660209005,
+      "accY_time": 275.48230269701878,
+      "decY_time": 306.21958758484408,
+      "end_time": 307.46964237427278,
+      "step_action": "DRONE2-DELIVER-HOUSE1-PACKAGE1-AT-SLOT1"
+    },
+    {
+      "index": 6,
+      "speedX": 14.996721903769641,
+      "speedY": -4.5852720353114957,
+      "direction": [
+        0.95352500443780575,
+        -0.30131389930084967
+      ],
+      "accX": 4.75,
+      "decX": -4.75,
+      "accY": -4.75,
+      "decY": 4.75,
+      "start_time": 307.48964327622406,
+      "accX_time": 307.98448996434439,
+      "decX_time": 339.29044028168471,
+      "accY_time": 307.67181910493576,
+      "decY_time": 341.482324464518,
+      "end_time": 342.44764489300462,
+      "step_action": "DRONE2-FINISH-DELIVERY"
+    }
+  ]
+}

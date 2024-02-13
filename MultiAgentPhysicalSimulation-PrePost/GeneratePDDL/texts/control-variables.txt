@@ -1,0 +1,14 @@
+	
+    (:control-variable vx-drone1
+		:bounds (and (>= ?value -20.0) (<= ?value 20.0))
+	)
+
+	(:control-variable vy-drone1
+		:bounds (and (>= ?value -20.0) (<= ?value 20.0))
+	)
+
+	(:control-variable-vector energy-drone1
+		:control-variables ((vx-drone1) (vy-drone1))
+		:max-norm 20
+	)
+

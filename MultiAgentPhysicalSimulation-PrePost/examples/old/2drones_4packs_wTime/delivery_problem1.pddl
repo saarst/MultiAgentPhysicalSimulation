@@ -1,0 +1,37 @@
+(define (problem delivery1)
+	(:domain delivery)
+
+	(:init
+		(first-time)
+		(= (time) 0)
+		(= (drone1-x) 640.0)
+		(= (drone1-y) 640.0)
+		(= (drone1-battery) 6000)
+		(= (drone2-x) 640.0)
+		(= (drone2-y) 640.0)
+		(= (drone2-battery) 6000)
+		(house2-needs-package1)
+		(package1-at-warehouse1)
+		(house2-needs-package2)
+		(package2-at-warehouse1)
+		(house3-needs-package3)
+		(package3-at-warehouse2)
+		(house4-needs-package4)
+		(package4-at-warehouse2)
+	)
+
+	(:goal (and
+		(finish-timer)
+		(house2-got-package1)
+		(house2-got-package2)
+		(house3-got-package3)
+		(house4-got-package4)
+		)
+	)
+)
+
+(:metric minimize (+
+					(* -0.1 (drone1-battery))
+					(* -0.1 (drone2-battery))
+					(* 20 (total-time) ))
+)

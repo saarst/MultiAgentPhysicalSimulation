@@ -1,0 +1,28 @@
+
+	(:durative-action drone1-deliver-house1-package1-at-slot1
+		:duration (and (>= ?duration 0.1) (<= ?duration 200))
+		:condition (and
+			(at start  (drone1-delivery-ongoing))
+			(at end  (drone1-delivery-ongoing))
+			(at start (not (drone1-busy)))
+			(at end   (drone1-busy))
+            ; 
+            ;;
+			(at end   (inside (house1-region (drone1-x) (drone1-y) )))
+			(at start (drone1-has-package1-at-slot1))
+			(at start (house1-needs-package1))
+            (over all (>= (drone1-battery) 0))
+		)
+		:effect (and
+			(at start (drone1-busy))
+			(at end (not (drone1-busy)))
+			(at end (not (drone1-has-package1-at-slot1)))
+			(at end (not (drone1-slot1-full)))
+			(at end (not (house1-needs-package1)))
+            (at end (house1-got-package1))
+            (increase (drone1-x) (* (vx-drone1) #t))
+			(increase (drone1-y) (* (vy-drone1) #t))
+			(decrease (drone1-battery) (* 1.0 (norm (energy-drone1)) #t))
+		)
+	)
+	

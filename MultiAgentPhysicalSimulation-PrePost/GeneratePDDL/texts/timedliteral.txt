@@ -1,0 +1,27 @@
+	(:durative-action timedliteral0
+		:duration (and (>= ?duration Tend) (<= ?duration Tend))
+		:condition (and 
+				(at start (TL0start))
+				(at start (not (TL1start)))
+		)
+
+		:effect (and
+			(at start (drone1-delivery-ongoing))
+			(at start (drone2-delivery-ongoing))
+			(at start (not (TL0start)))
+			(at start (TL0)) 
+			(at end (not (TL0)))
+		)
+	)
+	
+	(:durative-action timedliteral1
+		:duration (and (>= ?duration Tstart) (<= ?duration Tstart))
+		:condition (and 
+				(at start (TL1start))
+		)
+		:effect (and 
+			(at start (not (TL1start)))
+			(at start (TL1)) 
+			(at end (not (TL1)))
+		)
+	)

@@ -1,0 +1,5 @@
+
+	(:region earth
+		:parameters (?x ?y)
+		:condition (and (in-rect (?x ?y) :corner (0 0) :width 1280 :height 1280))
+	)

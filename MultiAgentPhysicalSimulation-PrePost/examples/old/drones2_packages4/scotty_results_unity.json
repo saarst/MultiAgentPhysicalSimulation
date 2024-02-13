@@ -1,0 +1,211 @@
+{
+  "step": [
+    {
+      "index": 0,
+      "step_time": 0,
+      "step_event": "START-START-DELIVERY",
+      "VX_DRONE1": 0,
+      "VY_DRONE1": 0,
+      "VX_DRONE2": 0,
+      "VY_DRONE2": 0
+    },
+    {
+      "index": 1,
+      "step_time": 0.010000241358015926,
+      "step_event": "START-FLY-DRONE1",
+      "VX_DRONE1": -18.32240632372811,
+      "VY_DRONE1": 19.999993060529071,
+      "VX_DRONE2": 0,
+      "VY_DRONE2": 0
+    },
+    {
+      "index": 2,
+      "step_time": 0.057214115631395342,
+      "step_event": "START-FLY-DRONE2",
+      "VX_DRONE1": -18.232673597667993,
+      "VY_DRONE1": 20.000095889083742,
+      "VX_DRONE2": 16.834182283008793,
+      "VY_DRONE2": -6.2512716577105811
+    },
+    {
+      "index": 3,
+      "step_time": 0.10000000149011612,
+      "step_event": "END-START-DELIVERY",
+      "VX_DRONE1": -18.598165099463984,
+      "VY_DRONE1": 19.99999971668111,
+      "VX_DRONE2": 12.819785330134678,
+      "VY_DRONE2": -4.722577725617974
+    },
+    {
+      "index": 4,
+      "step_time": 17.110000304986468,
+      "step_event": "START-DRONE1-PICKUP-PACKAGE1-FROM-WAREHOUSE1-INTO-SLOT1",
+      "VX_DRONE1": -6.5896709671990316E-5,
+      "VY_DRONE1": 1.3683147033267417E-5,
+      "VX_DRONE2": 12.835796653200727,
+      "VY_DRONE2": -4.7569469204478834
+    },
+    {
+      "index": 5,
+      "step_time": 17.610000304986468,
+      "step_event": "END-DRONE1-PICKUP-PACKAGE1-FROM-WAREHOUSE1-INTO-SLOT1",
+      "VX_DRONE1": -19.999999946834503,
+      "VY_DRONE1": -16.969700753693786,
+      "VX_DRONE2": 11.379749285970036,
+      "VY_DRONE2": -4.1908341977565513
+    },
+    {
+      "index": 6,
+      "step_time": 27.510000346328912,
+      "step_event": "START-DRONE1-DELIVER-HOUSE1-PACKAGE1-AT-SLOT1",
+      "VX_DRONE1": 0,
+      "VY_DRONE1": -1.8328665100207569E-5,
+      "VX_DRONE2": 11.595768137489813,
+      "VY_DRONE2": -4.2983636975981412
+    },
+    {
+      "index": 7,
+      "step_time": 27.8668348264374,
+      "step_event": "START-DRONE2-PICKUP-PACKAGE3-FROM-WAREHOUSE2-INTO-SLOT1",
+      "VX_DRONE1": 1.9187565771888431E-6,
+      "VY_DRONE1": -4.4167411427479317E-5,
+      "VX_DRONE2": 8.68027387765504E-6,
+      "VY_DRONE2": -1.2143793988381285E-5
+    },
+    {
+      "index": 8,
+      "step_time": 28.010000346328912,
+      "step_event": "END-DRONE1-DELIVER-HOUSE1-PACKAGE1-AT-SLOT1",
+      "VX_DRONE1": 19.999999246922364,
+      "VY_DRONE1": -7.0101517050264031,
+      "VX_DRONE2": 2.0417329528599455E-6,
+      "VY_DRONE2": -3.3167128892924377E-6
+    },
+    {
+      "index": 9,
+      "step_time": 28.3668348264374,
+      "step_event": "END-DRONE2-PICKUP-PACKAGE3-FROM-WAREHOUSE2-INTO-SLOT1",
+      "VX_DRONE1": 19.99999999581361,
+      "VY_DRONE1": -6.9927502495350939,
+      "VX_DRONE2": -14.695683713599035,
+      "VY_DRONE2": -2.3779411123577754
+    },
+    {
+      "index": 10,
+      "step_time": 70.420000429106423,
+      "step_event": "START-DRONE2-DELIVER-HOUSE3-PACKAGE3-AT-SLOT1",
+      "VX_DRONE1": 19.999999599320411,
+      "VY_DRONE1": -7.0024831054012324,
+      "VX_DRONE2": -3.4653676837975405E-6,
+      "VY_DRONE2": 5.0525571617157535E-6
+    },
+    {
+      "index": 11,
+      "step_time": 70.910000391622773,
+      "step_event": "START-DRONE1-PICKUP-PACKAGE4-FROM-WAREHOUSE2-INTO-SLOT1",
+      "VX_DRONE1": 0.00072832462256640167,
+      "VY_DRONE1": 0.00021295618378187965,
+      "VX_DRONE2": -0.00015678825744264898,
+      "VY_DRONE2": 0.00029115915414034836
+    },
+    {
+      "index": 12,
+      "step_time": 70.920000429106423,
+      "step_event": "END-DRONE2-DELIVER-HOUSE3-PACKAGE3-AT-SLOT1",
+      "VX_DRONE1": 1.0803199246217222E-5,
+      "VY_DRONE1": 2.7294048638044636E-6,
+      "VX_DRONE2": -0.35282557058862768,
+      "VY_DRONE2": 19.999999318893884
+    },
+    {
+      "index": 13,
+      "step_time": 71.410000391622773,
+      "step_event": "END-DRONE1-PICKUP-PACKAGE4-FROM-WAREHOUSE2-INTO-SLOT1",
+      "VX_DRONE1": 5.4440240081025228,
+      "VY_DRONE1": 17.711225580424411,
+      "VX_DRONE2": -0.35208458756849037,
+      "VY_DRONE2": 19.999999990024737
+    },
+    {
+      "index": 14,
+      "step_time": 98.9631478303598,
+      "step_event": "START-DRONE1-DELIVER-HOUSE4-PACKAGE4-AT-SLOT1",
+      "VX_DRONE1": -2.4043603822830931E-6,
+      "VY_DRONE1": 1.4114385659555575E-6,
+      "VX_DRONE2": -0.35332223735805329,
+      "VY_DRONE2": 19.999999106507133
+    },
+    {
+      "index": 15,
+      "step_time": 99.320000495139084,
+      "step_event": "START-DRONE2-PICKUP-PACKAGE2-FROM-WAREHOUSE1-INTO-SLOT1",
+      "VX_DRONE1": -6.59711793885665E-6,
+      "VY_DRONE1": 4.1862146190409138E-6,
+      "VX_DRONE2": 4.1926296638135464E-6,
+      "VY_DRONE2": 0
+    },
+    {
+      "index": 16,
+      "step_time": 99.4631478303598,
+      "step_event": "END-DRONE1-DELIVER-HOUSE4-PACKAGE4-AT-SLOT1",
+      "VX_DRONE1": -4.6903549567367087,
+      "VY_DRONE1": -3.3648880223098203,
+      "VX_DRONE2": 1.4881341225935148E-6,
+      "VY_DRONE2": 0
+    },
+    {
+      "index": 17,
+      "step_time": 99.820000495139084,
+      "step_event": "END-DRONE2-PICKUP-PACKAGE2-FROM-WAREHOUSE1-INTO-SLOT1",
+      "VX_DRONE1": -17.315492926995308,
+      "VY_DRONE1": -12.421983301402445,
+      "VX_DRONE2": 8.7098432698272461,
+      "VY_DRONE2": -20.0000001553151
+    },
+    {
+      "index": 18,
+      "step_time": 126.28914280478617,
+      "step_event": "END-FLY-DRONE1",
+      "VX_DRONE1": 0,
+      "VY_DRONE1": 0,
+      "VX_DRONE2": 8.7094206768048235,
+      "VY_DRONE2": -19.999999722429578
+    },
+    {
+      "index": 19,
+      "step_time": 143.22000054057389,
+      "step_event": "START-DRONE2-DELIVER-HOUSE2-PACKAGE2-AT-SLOT1",
+      "VX_DRONE1": 0,
+      "VY_DRONE1": 0,
+      "VX_DRONE2": 0,
+      "VY_DRONE2": 0
+    },
+    {
+      "index": 20,
+      "step_time": 143.72000054057389,
+      "step_event": "END-DRONE2-DELIVER-HOUSE2-PACKAGE2-AT-SLOT1",
+      "VX_DRONE1": 0,
+      "VY_DRONE1": 0,
+      "VX_DRONE2": -2.2813713266912159,
+      "VY_DRONE2": 20.000000134145814
+    },
+    {
+      "index": 21,
+      "step_time": 170.02000038206944,
+      "step_event": "END-FLY-DRONE2",
+      "VX_DRONE1": 0,
+      "VY_DRONE1": 0,
+      "VX_DRONE2": 0,
+      "VY_DRONE2": 0
+    },
+    {
+      "index": 22,
+      "step_time": 170.03000041263078,
+      "step_event": "START-FINISH-DELIVERY",
+      "VX_DRONE1": 0,
+      "VY_DRONE1": 0,
+      "VX_DRONE2": 0,
+      "VY_DRONE2": 0
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "step": [
+    {
+      "index": 0,
+      "speedX": -2.3504659897713749,
+      "speedY": 7.760377489989132,
+      "direction": [
+        -0.30405637213884923,
+        0.9526540413821597
+      ],
+      "accX": -4.75,
+      "decX": 4.75,
+      "accY": 4.75,
+      "decY": -4.75,
+      "start_time": 0.030005925419299827,
+      "accX_time": 0.52484087063432616,
+      "decX_time": 67.108435149687651,
+      "accY_time": 1.663769607522275,
+      "decY_time": 64.279829258467956,
+      "end_time": 67.368111113581136,
+      "step_action": "DRONE1-PICKUP-PACKAGE5-FROM-WAREHOUSE1-INTO-SLOT1"
+    },
+    {
+      "index": 1,
+      "speedX": -1.4054763272442679,
+      "speedY": -8.9369832438860275,
+      "direction": [
+        -0.16244562972992221,
+        -0.98671749623772709
+      ],
+      "accX": -4.75,
+      "decX": 4.75,
+      "accY": -4.75,
+      "decY": 4.75,
+      "start_time": 67.378113749385008,
+      "accX_time": 67.43884452116751,
+      "decX_time": 151.8105644612844,
+      "accY_time": 67.805065732982385,
+      "decY_time": 148.368742357478,
+      "end_time": 152.51741575808416,
+      "step_action": "DRONE1-DELIVER-HOUSE3-PACKAGE5-AT-SLOT1"
+    },
+    {
+      "index": 2,
+      "speedX": 2.4178861922670465,
+      "speedY": 13.92457895590497,
+      "direction": [
+        0.18595926673791313,
+        0.98255745435791064
+      ],
+      "accX": 4.75,
+      "decX": -4.75,
+      "accY": 4.75,
+      "decY": -4.75,
+      "start_time": 154.83670370939825,
+      "accX_time": 154.93477083775878,
+      "decX_time": 210.25506372363006,
+      "accY_time": 155.50099077190598,
+      "decY_time": 205.12416637118093,
+      "end_time": 210.26506978774796,
+      "step_action": "DRONE1-PICKUP-PACKAGE2-FROM-WAREHOUSE1-INTO-SLOT1"
+    },
+    {
+      "index": 3,
+      "speedX": 2.9671678282203269,
+      "speedY": -13.473832948283196,
+      "direction": [
+        0.22613310599216163,
+        -0.97409641123162838
+      ],
+      "accX": 4.75,
+      "decX": -4.75,
+      "accY": -4.75,
+      "decY": 4.75,
+      "start_time": 210.27507286661367,
+      "accX_time": 210.40071716987964,
+      "decX_time": 288.92480591420667,
+      "accY_time": 210.90225616671782,
+      "decY_time": 284.70114087278773,
+      "end_time": 289.875535239481,
+      "step_action": "DRONE1-DELIVER-HOUSE2-PACKAGE2-AT-SLOT1"
+    },
+    {
+      "index": 4,
+      "speedX": -1.9263278186283994,
+      "speedY": 13.34386885492288,
+      "direction": [
+        -0.14739244041630423,
+        0.98907809019719284
+      ],
+      "accX": -4.75,
+      "decX": 4.75,
+      "accY": 4.75,
+      "decY": -4.75,
+      "start_time": 289.885537391458,
+      "accX_time": 289.96501767604656,
+      "decX_time": 329.14397129873834,
+      "accY_time": 290.35697498333445,
+      "decY_time": 326.74027844899211,
+      "end_time": 329.54951399739696,
+      "step_action": "DRONE1-FINISH-DELIVERY"
+    }
+  ]
+}
