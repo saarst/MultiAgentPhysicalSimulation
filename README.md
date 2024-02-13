@@ -8,9 +8,9 @@
 
 
   <p align="center">
-    Yamit Pisman: <a href="https://www.linkedin.com/in/yamit-pisman/?originalSubdomain=il">LinkedIn</a> , <a href="https://github.com/ShiraLifshitz">GitHub</a>
+    Yamit Pisman: <a href="https://www.linkedin.com/in/yamit-pisman/?originalSubdomain=il">LinkedIn</a>
   <br>
-    Saar Stern: <a href="https://www.linkedin.com/in/saar-stern-a43413246/">LinkedIn</a>
+    Saar Stern: <a href="https://www.linkedin.com/in/saar-stern-a43413246/">LinkedIn</a> , <a href="https://github.com/saarst">GitHub</a>
   <br>
   Supervised by:
 <br>
